@@ -163,7 +163,7 @@
 }
 
 /*Media Queries*/
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .boxAviso {
     width: 100%;
     display: flex;
@@ -190,8 +190,8 @@
   }
   .imgAviso2 {
     display: none;
-    padding: 20px;
-    max-height: 60vh;
+    padding: 10px;
+    max-height: 80vh;
     max-width: 95%;
   }
   .textAviso2 {
@@ -202,22 +202,30 @@
   }
 
   .boxQuestion {
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-flow: column wrap;
+    align-content: space-around;
   }
   .formQuestion {
     text-align: center;
     display: flex;
     flex-flow: column wrap;
-    width: 95%;
-    padding: 20px;
+    width: 90%;
+    padding: 10px;
     font-size: 17px;
   }
   .imgQuestion {
-    padding: 20px;
-    width: 95%;
-    max-height: 90vh;
-    border-radius: 20%;
+    padding: 10px;
+    width: 90%;
+    max-height: 80vh;
+    border-radius: 15%;
+  }
+
+  .answerTrivia {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
   }
 }

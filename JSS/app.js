@@ -101,20 +101,20 @@ $(`#boton${recor.id}${recor.v1}`).click((e) => {
       $(`#boton${recor.id}${recor.v1}`).css({"background-color": "green"}).delay(1500);
       $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
       $(`<div class="boxQuestion">
+      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       <div class="formQuestion">
       <p class="answerTrivia"> Correcto! </p>
       </div>
-      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       </div>`).appendTo($(`#section${recor.id}`)));
 
     }else { 
         $(`#boton${recor.id}${recor.v1}`).css({"background-color": "red"}).delay(1500);
         $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
         $(`<div class="boxQuestion">
+        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         <div class="formQuestion">
         <p class="answerTrivia"> Incorrecto! </p>
         </div>
-        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         </div>`).appendTo($(`#section${recor.id}`)));
         console.log("false")
     }
@@ -141,20 +141,20 @@ $(`#boton${recor.id}${recor.v2}`).click((b) => {
       $(`#boton${recor.id}${recor.v2}`).css({"background-color": "green"}).delay(1500);
       $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
       $(`<div class="boxQuestion">
+      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       <div class="formQuestion">
       <p class="answerTrivia"> Correcto! </p>
       </div>
-      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       </div>`).appendTo($(`#section${recor.id}`)));
 
     }else { 
         $(`#boton${recor.id}${recor.v2}`).css({"background-color": "red"}).delay(1500);
         $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
         $(`<div class="boxQuestion">
+        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         <div class="formQuestion">
         <p class="answerTrivia"> Incorrecto! </p>
         </div>
-        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         </div>`).appendTo($(`#section${recor.id}`)));
         console.log("false")
     }
@@ -181,20 +181,20 @@ $(`#boton${recor.id}${recor.v3}`).click((a) => {
       $(`#boton${recor.id}${recor.v3}`).css({"background-color": "green"}).delay(1500);
       $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
       $(`<div class="boxQuestion">
+      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       <div class="formQuestion">
       <p class="answerTrivia"> Correcto! </p>
       </div>
-      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       </div>`).appendTo($(`#section${recor.id}`)));
 
     }else { 
         $(`#boton${recor.id}${recor.v3}`).css({"background-color": "red"}).delay(1500);
         $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
         $(`<div class="boxQuestion">
+        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         <div class="formQuestion">
         <p class="answerTrivia"> Incorrecto! </p>
         </div>
-        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         </div>`).appendTo($(`#section${recor.id}`)));
         console.log("false")
     }
@@ -222,20 +222,20 @@ $(`#boton${recor.id}${recor.v4}`).click((c) => {
       $(`#boton${recor.id}${recor.v4}`).css({"background-color": "green"}).delay(1500);
       $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
       $(`<div class="boxQuestion">
+      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       <div class="formQuestion">
       <p class="answerTrivia"> Correcto! </p>
       </div>
-      <img class="imgQuestion" src="https://phantom-marca.unidadeditorial.es/0509cbd44e41f4ffdb98fc8b9867bfe0/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/12/16208494355539.jpg">
       </div>`).appendTo($(`#section${recor.id}`)));
 
     }else { 
         $(`#boton${recor.id}${recor.v4}`).css({"background-color": "red"}).delay(1500);
         $(`#form${recor.id}`).fadeOut(100).delay(500, ()=> 
         $(`<div class="boxQuestion">
+        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         <div class="formQuestion">
         <p class="answerTrivia"> Incorrecto! </p>
         </div>
-        <img class="imgQuestion" src="https://img.publimetro.cl/sites/3/2020/02/21/0-0/capturadepantalla20180320alas075353-4f6ddff338ed57c22145691690c18e79-800x400.jpg">
         </div>`).appendTo($(`#section${recor.id}`)));
         console.log("false")
     }
