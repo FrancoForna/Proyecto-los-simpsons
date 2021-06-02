@@ -1,0 +1,223 @@
+/* imagenes */
+.rosquilla {
+  padding-top: 100px;
+}
+
+/* Formulario*/
+.cajaFormulario {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.formPrinc {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
+}
+
+.legendForm {
+  color: rgb(255, 217, 15);
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.inputForm {
+  padding: 5px;
+}
+
+.formSex {
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
+.legendFormS {
+  color: rgb(255, 217, 15);
+  font-weight: bolder;
+}
+.inputFormS {
+  padding: 105px;
+}
+
+/*Estilo botones*/
+.botones {
+  background-color: rgb(255, 217, 15);
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border: 2px solid #0a0a0a;
+  margin: 10px;
+}
+
+/*Funcion none*/
+.notYet {
+  display: none;
+}
+
+/*Caja trivia*/
+.boxTrivia {
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(255, 217, 15), #cea800);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.boxAviso {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.imgAviso {
+  max-height: 70vh;
+  max-width: 45%;
+}
+.boxText {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 45%;
+}
+.textAviso {
+  padding: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.imgAviso2 {
+  display: none;
+  padding: 20px;
+  max-height: 70vh;
+  max-width: 65%;
+}
+.textAviso2 {
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* Caja starTrivia*/
+.starTrivia {
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(255, 217, 15), #cea800);
+  display: flex;
+  flex-flow: column wrap;
+}
+.boxQuestion {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.formQuestion {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  padding: 50px;
+  font-size: 17px;
+}
+.imgQuestion {
+  padding: 50px;
+  width: 50%;
+  max-height: 70vh;
+  border-radius: 20%;
+}
+
+.botonesRespuesta {
+  background-color: rgb(255, 217, 15);
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  border: 2px solid #0a0a0a;
+  margin: 10px;
+}
+
+.answerTrivia {
+  padding: 50px;
+  text-align: center;
+  font-size: 70px;
+}
+.answerTrivia2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.boxQuestion2 {
+  width: 100%;
+  display: none;
+}
+.hide {
+  display: none;
+}
+
+/*Media Queries*/
+@media (max-width: 600px) {
+  .boxAviso {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+
+  .imgAviso {
+    max-height: 70vh;
+    max-width: 100%;
+  }
+  .boxText {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+  }
+  .textAviso {
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .imgAviso2 {
+    display: none;
+    padding: 20px;
+    max-height: 60vh;
+    max-width: 95%;
+  }
+  .textAviso2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .boxQuestion {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .formQuestion {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 95%;
+    padding: 20px;
+    font-size: 17px;
+  }
+  .imgQuestion {
+    padding: 20px;
+    width: 95%;
+    max-height: 90vh;
+    border-radius: 20%;
+  }
+}
